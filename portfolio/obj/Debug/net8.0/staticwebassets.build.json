@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+PvTLecj5o6Yc5xrBX6Gw7rB4jAkilZAw6/NfTO6tUs=",
+  "Hash": "VdC4rD5CT2ns+uhntNqDEqUKdQPebQAImSnzkXinJzU=",
   "Source": "portfolio",
   "BasePath": "_content/portfolio",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\filth\\OneDrive\\Desktop\\Projects\\portfolio\\portfolio\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\portfolio.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\filth\\OneDrive\\Desktop\\Projects\\portfolio\\portfolio\\wwwroot\\bg.jpg",
+      "SourceId": "portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\filth\\OneDrive\\Desktop\\Projects\\portfolio\\portfolio\\wwwroot\\",
+      "BasePath": "_content/portfolio",
+      "RelativePath": "bg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bg.jpg"
     },
     {
       "Identity": "C:\\Users\\filth\\OneDrive\\Desktop\\Projects\\portfolio\\portfolio\\wwwroot\\css\\site.css",

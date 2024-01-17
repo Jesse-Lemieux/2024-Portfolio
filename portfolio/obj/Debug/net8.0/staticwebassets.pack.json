@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\portfolio.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\filth\\OneDrive\\Desktop\\Projects\\portfolio\\portfolio\\wwwroot\\bg.jpg",
+      "PackagePath": "staticwebassets\\bg.jpg"
+    },
+    {
       "Id": "C:\\Users\\filth\\OneDrive\\Desktop\\Projects\\portfolio\\portfolio\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
