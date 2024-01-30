@@ -10,25 +10,10 @@
 </head>
 <body>
     <style>
-        body{
-            padding-top: 56px;
-        }
-        .parallax-container {
-            display: flex;
-            min-height: 100vh;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            /*  this is where the magic happens:  */
-            background-attachment: fixed;
-            background-image: url(https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg);
-            background-position: center;
-            background-size: cover;
-            color: var(--color);
-            row-gap: 4rem;
-            text-align: center;
-        }
 
+        #nv:hover{
+            opacity: 100%;
+        }
         .hvr-bounce-to-bottom {
             display: inline-block;
             vertical-align: middle;
@@ -50,7 +35,7 @@
                 left: 0;
                 right: 0;
                 bottom: 0;
-                background: #9AFFA6;
+                background: #C0C0BE;
                 -webkit-transform: scaleY(0);
                 transform: scaleY(0);
                 -webkit-transform-origin: 50% 0;
@@ -75,9 +60,8 @@
                 }
     </style>
     <header>
-        <nav class="navbar fixed-top navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav id="nv" class=" navbar fixed-top navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">Jesse Lemieux</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -101,17 +85,15 @@
             </div>
         </nav>
     </header>
-    <div class="parallax-container">
-    <div class="container text-white">
+    <div class="text-white">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-    </div>
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2024 - Jesse Lemieux - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2024 - Jesse Lemieux
         </div>
     </footer>
 

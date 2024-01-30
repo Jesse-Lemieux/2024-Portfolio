@@ -3,108 +3,161 @@
 @{
     ViewData["Title"] = "Home page";
 }
-<div id="home" class="text-center">
+<style>
+    .parallax-container1 {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /*  this is where the magic happens:  */
+        background-attachment: fixed;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg);
+        background-position: center;
+        background-size: cover;
+        color: var(--color);
+        row-gap: 4rem;
+        text-align: center;
+    }
+
+    .parallax-container2 {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /*  this is where the magic happens:  */
+        background-attachment: fixed;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.pexels.com/photos/604684/pexels-photo-604684.jpeg);
+        background-position: center;
+        background-size: cover;
+        color: var(--color);
+        row-gap: 4rem;
+        text-align: center;
+    }
+
+    .parallax-container3 {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /*  this is where the magic happens:  */
+        background-attachment: fixed;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.pexels.com/photos/1269968/pexels-photo-1269968.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-position: center;
+        background-size: cover;
+        color: var(--color);
+        row-gap: 4rem;
+        text-align: center;
+    }
+
+    .parallax-container4 {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /*  this is where the magic happens:  */
+        background-attachment: fixed;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.pexels.com/photos/133953/pexels-photo-133953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-position: center;
+        background-size: cover;
+        color: var(--color);
+        row-gap: 4rem;
+        text-align: center;
+    }
+    .seperator{
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: darkslategrey;
+    }
+
+</style>
+<div id="home" class="text-center d-flex flex-column align-items-center parallax-container1">
+    <div class="w-75">
     <h2 class="display-4">Jesse Lemieux</h2>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus, velit pellentesque molestie ultrices, lorem lacus faucibus mauris, condimentum tempus erat eros id turpis. Nulla placerat quis turpis vel consectetur. Nullam egestas vestibulum nibh a consequat. Donec gravida dolor elit, rhoncus varius nisl mollis ullamcorper. Aenean ac convallis nulla, ac porttitor ante. Praesent et eros tempor, condimentum urna id, molestie massa. Sed tempus metus non tortor tempor pellentesque. Curabitur vehicula lacinia massa, a dapibus libero venenatis ut. Proin porttitor erat enim, ut consequat ligula fringilla id. Curabitur at sollicitudin nisi. Nam vel eleifend orci. Praesent eget erat orci. In mattis lorem eu tortor vehicula, sit amet tincidunt mauris efficitur. Quisque tempus erat quis ex consectetur fermentum.
+    </div>
+        <img class="prof" src="https://media.licdn.com/dms/image/D4E03AQFNmjJf-VSl2Q/profile-displayphoto-shrink_800_800/0/1677683530447?e=1710979200&v=beta&t=Tcv8gGxx_GrSH_jFh8NyI1RuBLflmwTR4_3_4lxMhao" />
+   <p class="w-75">
+        Hi! I'm Jesse. I'm a seasoned software developer with a rich background in the field, boasting intermediate-level experience that spans several years. My journey in software development began with a strong educational foundation, earning a certificate in Full Stack Web Development from the University of Connecticut.
 
-        Sed id nibh maximus, scelerisque ligula vulputate, hendrerit libero. Nulla lacinia sed ipsum vel bibendum. In vitae cursus nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec laoreet eleifend varius. Duis turpis dui, ornare sed laoreet quis, faucibus vitae lectus. Aliquam dolor arcu, elementum in lobortis ac, condimentum eu nulla. Praesent fringilla pretium mauris. Nulla facilisi. Curabitur lacinia mauris sed convallis lacinia. Integer vel venenatis risus. Maecenas luctus massa sit amet justo consequat, id vehicula lorem condimentum.
+        Throughout my career, I have honed my skills by working on diverse projects across various domains. My expertise includes proficiency in multiple programming languages such as Java, C#, HTML, CSS and JavaScript, allowing me to contribute effectively to both back-end and front-end development. I am well-versed in software architecture, design patterns, and system integration, showcasing my ability to create robust and scalable solutions.
 
-        Donec tellus ligula, congue vitae euismod sit amet, dapibus sed augue. Fusce nec tempus nunc. Vivamus vitae tempus urna, eget elementum massa. Nullam nec metus sed lacus commodo iaculis id in eros. Cras scelerisque vitae mauris nec efficitur. Fusce laoreet nibh non nibh pretium sodales. Nulla at dui in turpis ultricies volutpat sed et risus. Maecenas ac libero et risus finibus posuere. Curabitur elementum lacinia nibh, at dapibus magna sagittis sit amet. Donec sit amet tincidunt arcu. Curabitur non purus libero. In ex erat, venenatis eget sodales quis, bibendum vitae augue. Nunc finibus vel urna in lobortis.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus, velit pellentesque molestie ultrices, lorem lacus faucibus mauris, condimentum tempus erat eros id turpis. Nulla placerat quis turpis vel consectetur. Nullam egestas vestibulum nibh a consequat. Donec gravida dolor elit, rhoncus varius nisl mollis ullamcorper. Aenean ac convallis nulla, ac porttitor ante. Praesent et eros tempor, condimentum urna id, molestie massa. Sed tempus metus non tortor tempor pellentesque. Curabitur vehicula lacinia massa, a dapibus libero venenatis ut. Proin porttitor erat enim, ut consequat ligula fringilla id. Curabitur at sollicitudin nisi. Nam vel eleifend orci. Praesent eget erat orci. In mattis lorem eu tortor vehicula, sit amet tincidunt mauris efficitur. Quisque tempus erat quis ex consectetur fermentum.
+        In my previous roles, I have demonstrated a knack for problem-solving and a keen eye for optimizing code efficiency. My commitment to staying updated with the latest industry trends and technologies have enabled me to adapt quickly to evolving project requirements. I am also adept at collaborating with cross-functional teams, fostering effective communication to achieve project milestones seamlessly.
 
-        Sed id nibh maximus, scelerisque ligula vulputate, hendrerit libero. Nulla lacinia sed ipsum vel bibendum. In vitae cursus nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec laoreet eleifend varius. Duis turpis dui, ornare sed laoreet quis, faucibus vitae lectus. Aliquam dolor arcu, elementum in lobortis ac, condimentum eu nulla. Praesent fringilla pretium mauris. Nulla facilisi. Curabitur lacinia mauris sed convallis lacinia. Integer vel venenatis risus. Maecenas luctus massa sit amet justo consequat, id vehicula lorem condimentum.
-
-        Donec tellus ligula, congue vitae euismod sit amet, dapibus sed augue. Fusce nec tempus nunc. Vivamus vitae tempus urna, eget elementum massa. Nullam nec metus sed lacus commodo iaculis id in eros. Cras scelerisque vitae mauris nec efficitur. Fusce laoreet nibh non nibh pretium sodales. Nulla at dui in turpis ultricies volutpat sed et risus. Maecenas ac libero et risus finibus posuere. Curabitur elementum lacinia nibh, at dapibus magna sagittis sit amet. Donec sit amet tincidunt arcu. Curabitur non purus libero. In ex erat, venenatis eget sodales quis, bibendum vitae augue. Nunc finibus vel urna in lobortis.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus, velit pellentesque molestie ultrices, lorem lacus faucibus mauris, condimentum tempus erat eros id turpis. Nulla placerat quis turpis vel consectetur. Nullam egestas vestibulum nibh a consequat. Donec gravida dolor elit, rhoncus varius nisl mollis ullamcorper. Aenean ac convallis nulla, ac porttitor ante. Praesent et eros tempor, condimentum urna id, molestie massa. Sed tempus metus non tortor tempor pellentesque. Curabitur vehicula lacinia massa, a dapibus libero venenatis ut. Proin porttitor erat enim, ut consequat ligula fringilla id. Curabitur at sollicitudin nisi. Nam vel eleifend orci. Praesent eget erat orci. In mattis lorem eu tortor vehicula, sit amet tincidunt mauris efficitur. Quisque tempus erat quis ex consectetur fermentum.
-
-        Sed id nibh maximus, scelerisque ligula vulputate, hendrerit libero. Nulla lacinia sed ipsum vel bibendum. In vitae cursus nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec laoreet eleifend varius. Duis turpis dui, ornare sed laoreet quis, faucibus vitae lectus. Aliquam dolor arcu, elementum in lobortis ac, condimentum eu nulla. Praesent fringilla pretium mauris. Nulla facilisi. Curabitur lacinia mauris sed convallis lacinia. Integer vel venenatis risus. Maecenas luctus massa sit amet justo consequat, id vehicula lorem condimentum.
-
-        Donec tellus ligula, congue vitae euismod sit amet, dapibus sed augue. Fusce nec tempus nunc. Vivamus vitae tempus urna, eget elementum massa. Nullam nec metus sed lacus commodo iaculis id in eros. Cras scelerisque vitae mauris nec efficitur. Fusce laoreet nibh non nibh pretium sodales. Nulla at dui in turpis ultricies volutpat sed et risus. Maecenas ac libero et risus finibus posuere. Curabitur elementum lacinia nibh, at dapibus magna sagittis sit amet. Donec sit amet tincidunt arcu. Curabitur non purus libero. In ex erat, venenatis eget sodales quis, bibendum vitae augue. Nunc finibus vel urna in lobortis.
+        With a passion for delivering high-quality software products, I have successfully contributed to the development of user-friendly applications that meet both client and end-user expectations. My intermediate-level experience reflects a balance of foundational knowledge and practical skills, making me a valuable asset to any software development team. As I continues to evolve in my career, I beleive my commitment to excellence and continuous learning sets me apart as a dedicated and proficient software developer.
     </p>
 </div>
-
-<div id="aboutMe" class="text-center">
+<div class="seperator"></div>
+<div id="aboutMe" class="text-center d-flex flex-column align-items-center parallax-container2">
+    <div class="w-75">
     <h2 class="display-4">About Me</h2>
-   <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus, velit pellentesque molestie ultrices, lorem lacus faucibus mauris, condimentum tempus erat eros id turpis. Nulla placerat quis turpis vel consectetur. Nullam egestas vestibulum nibh a consequat. Donec gravida dolor elit, rhoncus varius nisl mollis ullamcorper. Aenean ac convallis nulla, ac porttitor ante. Praesent et eros tempor, condimentum urna id, molestie massa. Sed tempus metus non tortor tempor pellentesque. Curabitur vehicula lacinia massa, a dapibus libero venenatis ut. Proin porttitor erat enim, ut consequat ligula fringilla id. Curabitur at sollicitudin nisi. Nam vel eleifend orci. Praesent eget erat orci. In mattis lorem eu tortor vehicula, sit amet tincidunt mauris efficitur. Quisque tempus erat quis ex consectetur fermentum.
-
-        Sed id nibh maximus, scelerisque ligula vulputate, hendrerit libero. Nulla lacinia sed ipsum vel bibendum. In vitae cursus nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec laoreet eleifend varius. Duis turpis dui, ornare sed laoreet quis, faucibus vitae lectus. Aliquam dolor arcu, elementum in lobortis ac, condimentum eu nulla. Praesent fringilla pretium mauris. Nulla facilisi. Curabitur lacinia mauris sed convallis lacinia. Integer vel venenatis risus. Maecenas luctus massa sit amet justo consequat, id vehicula lorem condimentum.
-
-        Donec tellus ligula, congue vitae euismod sit amet, dapibus sed augue. Fusce nec tempus nunc. Vivamus vitae tempus urna, eget elementum massa. Nullam nec metus sed lacus commodo iaculis id in eros. Cras scelerisque vitae mauris nec efficitur. Fusce laoreet nibh non nibh pretium sodales. Nulla at dui in turpis ultricies volutpat sed et risus. Maecenas ac libero et risus finibus posuere. Curabitur elementum lacinia nibh, at dapibus magna sagittis sit amet. Donec sit amet tincidunt arcu. Curabitur non purus libero. In ex erat, venenatis eget sodales quis, bibendum vitae augue. Nunc finibus vel urna in lobortis.
+    </div>
+   <p class="w-75">
+        Since I was young, I have always had an interest in development. To my core, I am a creator, and always have been. It started when I gained an interest in music. For all my musical projects, I’ve been the composer, designer, photographer, performer and director. I have always prided myself on my undying dedication to producing the greatest result, and appreciated the merit and satisfaction of completing long spanning and complex projects.
    </p>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus, velit pellentesque molestie ultrices, lorem lacus faucibus mauris, condimentum tempus erat eros id turpis. Nulla placerat quis turpis vel consectetur. Nullam egestas vestibulum nibh a consequat. Donec gravida dolor elit, rhoncus varius nisl mollis ullamcorper. Aenean ac convallis nulla, ac porttitor ante. Praesent et eros tempor, condimentum urna id, molestie massa. Sed tempus metus non tortor tempor pellentesque. Curabitur vehicula lacinia massa, a dapibus libero venenatis ut. Proin porttitor erat enim, ut consequat ligula fringilla id. Curabitur at sollicitudin nisi. Nam vel eleifend orci. Praesent eget erat orci. In mattis lorem eu tortor vehicula, sit amet tincidunt mauris efficitur. Quisque tempus erat quis ex consectetur fermentum.
-
-        Sed id nibh maximus, scelerisque ligula vulputate, hendrerit libero. Nulla lacinia sed ipsum vel bibendum. In vitae cursus nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec laoreet eleifend varius. Duis turpis dui, ornare sed laoreet quis, faucibus vitae lectus. Aliquam dolor arcu, elementum in lobortis ac, condimentum eu nulla. Praesent fringilla pretium mauris. Nulla facilisi. Curabitur lacinia mauris sed convallis lacinia. Integer vel venenatis risus. Maecenas luctus massa sit amet justo consequat, id vehicula lorem condimentum.
-
-        Donec tellus ligula, congue vitae euismod sit amet, dapibus sed augue. Fusce nec tempus nunc. Vivamus vitae tempus urna, eget elementum massa. Nullam nec metus sed lacus commodo iaculis id in eros. Cras scelerisque vitae mauris nec efficitur. Fusce laoreet nibh non nibh pretium sodales. Nulla at dui in turpis ultricies volutpat sed et risus. Maecenas ac libero et risus finibus posuere. Curabitur elementum lacinia nibh, at dapibus magna sagittis sit amet. Donec sit amet tincidunt arcu. Curabitur non purus libero. In ex erat, venenatis eget sodales quis, bibendum vitae augue. Nunc finibus vel urna in lobortis.
+    <p class="w-75">
+        When I first started teaching myself the keys to development, I started small, but it wasn’t long before I strived for more and wanted to construct larger and more complex projects (sometimes to my own detriment). As I began to learn more and more about the pillars of web development (front end, back end, middleware), I discovered I was perhaps in need of guidance, as there is so much to learn in this ever evolving industry. It was then that I enrolled in Uconn’s coding bootcamp.
     </p>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus, velit pellentesque molestie ultrices, lorem lacus faucibus mauris, condimentum tempus erat eros id turpis. Nulla placerat quis turpis vel consectetur. Nullam egestas vestibulum nibh a consequat. Donec gravida dolor elit, rhoncus varius nisl mollis ullamcorper. Aenean ac convallis nulla, ac porttitor ante. Praesent et eros tempor, condimentum urna id, molestie massa. Sed tempus metus non tortor tempor pellentesque. Curabitur vehicula lacinia massa, a dapibus libero venenatis ut. Proin porttitor erat enim, ut consequat ligula fringilla id. Curabitur at sollicitudin nisi. Nam vel eleifend orci. Praesent eget erat orci. In mattis lorem eu tortor vehicula, sit amet tincidunt mauris efficitur. Quisque tempus erat quis ex consectetur fermentum.
-
-        Sed id nibh maximus, scelerisque ligula vulputate, hendrerit libero. Nulla lacinia sed ipsum vel bibendum. In vitae cursus nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec laoreet eleifend varius. Duis turpis dui, ornare sed laoreet quis, faucibus vitae lectus. Aliquam dolor arcu, elementum in lobortis ac, condimentum eu nulla. Praesent fringilla pretium mauris. Nulla facilisi. Curabitur lacinia mauris sed convallis lacinia. Integer vel venenatis risus. Maecenas luctus massa sit amet justo consequat, id vehicula lorem condimentum.
-
-        Donec tellus ligula, congue vitae euismod sit amet, dapibus sed augue. Fusce nec tempus nunc. Vivamus vitae tempus urna, eget elementum massa. Nullam nec metus sed lacus commodo iaculis id in eros. Cras scelerisque vitae mauris nec efficitur. Fusce laoreet nibh non nibh pretium sodales. Nulla at dui in turpis ultricies volutpat sed et risus. Maecenas ac libero et risus finibus posuere. Curabitur elementum lacinia nibh, at dapibus magna sagittis sit amet. Donec sit amet tincidunt arcu. Curabitur non purus libero. In ex erat, venenatis eget sodales quis, bibendum vitae augue. Nunc finibus vel urna in lobortis.
+    <p class="w-75">
+        My instructor Kim, was a seasoned veteran in the coding sphere, telling stories of his days coding antiquated systems with Ruby and Visual Basic. As the arduous weeks rolled on in the bootcamp, with guidance of Kim, I took my introductory understanding of web development and sharpened it into a powerful tool, boasting skills in React, Node, MongoDB, Express servers, and JavaScript as a whole, and turning those skills into materiel projects.
     </p>
-
 </div>
-
-<div id="exp" class="text-center">
+<div class="seperator"></div>
+<div id="exp" class="text-center d-flex flex-column align-items-center parallax-container3">
+    <div class="w-75">
     <h2 class="display-4">Experience and Projects</h2>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus, velit pellentesque molestie ultrices, lorem lacus faucibus mauris, condimentum tempus erat eros id turpis. Nulla placerat quis turpis vel consectetur. Nullam egestas vestibulum nibh a consequat. Donec gravida dolor elit, rhoncus varius nisl mollis ullamcorper. Aenean ac convallis nulla, ac porttitor ante. Praesent et eros tempor, condimentum urna id, molestie massa. Sed tempus metus non tortor tempor pellentesque. Curabitur vehicula lacinia massa, a dapibus libero venenatis ut. Proin porttitor erat enim, ut consequat ligula fringilla id. Curabitur at sollicitudin nisi. Nam vel eleifend orci. Praesent eget erat orci. In mattis lorem eu tortor vehicula, sit amet tincidunt mauris efficitur. Quisque tempus erat quis ex consectetur fermentum.
+    </div>
+    <div class="container d-flex justify-content-center">
+        <div class="wrapper">
+            <a href="https://jesse-lemieux.github.io/weather-dashboard/">
+                <div class="image">
+                    <img class="prof" src="~/Images/Screenshot (8).png" />
+                <div class="content">
+                    <p class="img__descr">Weather Dashboard: JavaScript, Html, APIs.</p>
+                </div>
+                </div>
+            </a>
+        </div>
+        <div class="wrapper">
+        <a href="https://etrenholm.github.io/trivia-blast/">
+            <div class="image">
+                <img class="prof" src="~/Images/Screenshot1.png" />
+            <div class="content">
+                <p class="img__descr">Trivia Blast: JavaScript, Html, APIs, Local Storage.</p>
+            </div>
+            </div>
+        </a>
+        </div>
+        <div class="wrapper">
+        <a href="https://giv-social.up.railway.app/">
+            <div class="image">
+                <img class="prof2" src="https://giv-social.up.railway.app/static/media/givlogo.1ab1818910cb1c71b70c2fd1214d62cc.svg" />
+            <div class="content">
+                <p class="img__descr">Giv: React, Express, Node, MongoDB.</p>
+            </div>
+            </div>
+        </a>
 
-        Sed id nibh maximus, scelerisque ligula vulputate, hendrerit libero. Nulla lacinia sed ipsum vel bibendum. In vitae cursus nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec laoreet eleifend varius. Duis turpis dui, ornare sed laoreet quis, faucibus vitae lectus. Aliquam dolor arcu, elementum in lobortis ac, condimentum eu nulla. Praesent fringilla pretium mauris. Nulla facilisi. Curabitur lacinia mauris sed convallis lacinia. Integer vel venenatis risus. Maecenas luctus massa sit amet justo consequat, id vehicula lorem condimentum.
+    </div>
 
-        Donec tellus ligula, congue vitae euismod sit amet, dapibus sed augue. Fusce nec tempus nunc. Vivamus vitae tempus urna, eget elementum massa. Nullam nec metus sed lacus commodo iaculis id in eros. Cras scelerisque vitae mauris nec efficitur. Fusce laoreet nibh non nibh pretium sodales. Nulla at dui in turpis ultricies volutpat sed et risus. Maecenas ac libero et risus finibus posuere. Curabitur elementum lacinia nibh, at dapibus magna sagittis sit amet. Donec sit amet tincidunt arcu. Curabitur non purus libero. In ex erat, venenatis eget sodales quis, bibendum vitae augue. Nunc finibus vel urna in lobortis.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus, velit pellentesque molestie ultrices, lorem lacus faucibus mauris, condimentum tempus erat eros id turpis. Nulla placerat quis turpis vel consectetur. Nullam egestas vestibulum nibh a consequat. Donec gravida dolor elit, rhoncus varius nisl mollis ullamcorper. Aenean ac convallis nulla, ac porttitor ante. Praesent et eros tempor, condimentum urna id, molestie massa. Sed tempus metus non tortor tempor pellentesque. Curabitur vehicula lacinia massa, a dapibus libero venenatis ut. Proin porttitor erat enim, ut consequat ligula fringilla id. Curabitur at sollicitudin nisi. Nam vel eleifend orci. Praesent eget erat orci. In mattis lorem eu tortor vehicula, sit amet tincidunt mauris efficitur. Quisque tempus erat quis ex consectetur fermentum.
-
-        Sed id nibh maximus, scelerisque ligula vulputate, hendrerit libero. Nulla lacinia sed ipsum vel bibendum. In vitae cursus nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec laoreet eleifend varius. Duis turpis dui, ornare sed laoreet quis, faucibus vitae lectus. Aliquam dolor arcu, elementum in lobortis ac, condimentum eu nulla. Praesent fringilla pretium mauris. Nulla facilisi. Curabitur lacinia mauris sed convallis lacinia. Integer vel venenatis risus. Maecenas luctus massa sit amet justo consequat, id vehicula lorem condimentum.
-
-        Donec tellus ligula, congue vitae euismod sit amet, dapibus sed augue. Fusce nec tempus nunc. Vivamus vitae tempus urna, eget elementum massa. Nullam nec metus sed lacus commodo iaculis id in eros. Cras scelerisque vitae mauris nec efficitur. Fusce laoreet nibh non nibh pretium sodales. Nulla at dui in turpis ultricies volutpat sed et risus. Maecenas ac libero et risus finibus posuere. Curabitur elementum lacinia nibh, at dapibus magna sagittis sit amet. Donec sit amet tincidunt arcu. Curabitur non purus libero. In ex erat, venenatis eget sodales quis, bibendum vitae augue. Nunc finibus vel urna in lobortis.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus, velit pellentesque molestie ultrices, lorem lacus faucibus mauris, condimentum tempus erat eros id turpis. Nulla placerat quis turpis vel consectetur. Nullam egestas vestibulum nibh a consequat. Donec gravida dolor elit, rhoncus varius nisl mollis ullamcorper. Aenean ac convallis nulla, ac porttitor ante. Praesent et eros tempor, condimentum urna id, molestie massa. Sed tempus metus non tortor tempor pellentesque. Curabitur vehicula lacinia massa, a dapibus libero venenatis ut. Proin porttitor erat enim, ut consequat ligula fringilla id. Curabitur at sollicitudin nisi. Nam vel eleifend orci. Praesent eget erat orci. In mattis lorem eu tortor vehicula, sit amet tincidunt mauris efficitur. Quisque tempus erat quis ex consectetur fermentum.
-
-        Sed id nibh maximus, scelerisque ligula vulputate, hendrerit libero. Nulla lacinia sed ipsum vel bibendum. In vitae cursus nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec laoreet eleifend varius. Duis turpis dui, ornare sed laoreet quis, faucibus vitae lectus. Aliquam dolor arcu, elementum in lobortis ac, condimentum eu nulla. Praesent fringilla pretium mauris. Nulla facilisi. Curabitur lacinia mauris sed convallis lacinia. Integer vel venenatis risus. Maecenas luctus massa sit amet justo consequat, id vehicula lorem condimentum.
-
-        Donec tellus ligula, congue vitae euismod sit amet, dapibus sed augue. Fusce nec tempus nunc. Vivamus vitae tempus urna, eget elementum massa. Nullam nec metus sed lacus commodo iaculis id in eros. Cras scelerisque vitae mauris nec efficitur. Fusce laoreet nibh non nibh pretium sodales. Nulla at dui in turpis ultricies volutpat sed et risus. Maecenas ac libero et risus finibus posuere. Curabitur elementum lacinia nibh, at dapibus magna sagittis sit amet. Donec sit amet tincidunt arcu. Curabitur non purus libero. In ex erat, venenatis eget sodales quis, bibendum vitae augue. Nunc finibus vel urna in lobortis.
-    </p>
-
+    </div>
 </div>
-
-<div id="contact" class="text-center">
-    <h2 class="display-4">Contact</h2>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus, velit pellentesque molestie ultrices, lorem lacus faucibus mauris, condimentum tempus erat eros id turpis. Nulla placerat quis turpis vel consectetur. Nullam egestas vestibulum nibh a consequat. Donec gravida dolor elit, rhoncus varius nisl mollis ullamcorper. Aenean ac convallis nulla, ac porttitor ante. Praesent et eros tempor, condimentum urna id, molestie massa. Sed tempus metus non tortor tempor pellentesque. Curabitur vehicula lacinia massa, a dapibus libero venenatis ut. Proin porttitor erat enim, ut consequat ligula fringilla id. Curabitur at sollicitudin nisi. Nam vel eleifend orci. Praesent eget erat orci. In mattis lorem eu tortor vehicula, sit amet tincidunt mauris efficitur. Quisque tempus erat quis ex consectetur fermentum.
-
-        Sed id nibh maximus, scelerisque ligula vulputate, hendrerit libero. Nulla lacinia sed ipsum vel bibendum. In vitae cursus nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec laoreet eleifend varius. Duis turpis dui, ornare sed laoreet quis, faucibus vitae lectus. Aliquam dolor arcu, elementum in lobortis ac, condimentum eu nulla. Praesent fringilla pretium mauris. Nulla facilisi. Curabitur lacinia mauris sed convallis lacinia. Integer vel venenatis risus. Maecenas luctus massa sit amet justo consequat, id vehicula lorem condimentum.
-
-        Donec tellus ligula, congue vitae euismod sit amet, dapibus sed augue. Fusce nec tempus nunc. Vivamus vitae tempus urna, eget elementum massa. Nullam nec metus sed lacus commodo iaculis id in eros. Cras scelerisque vitae mauris nec efficitur. Fusce laoreet nibh non nibh pretium sodales. Nulla at dui in turpis ultricies volutpat sed et risus. Maecenas ac libero et risus finibus posuere. Curabitur elementum lacinia nibh, at dapibus magna sagittis sit amet. Donec sit amet tincidunt arcu. Curabitur non purus libero. In ex erat, venenatis eget sodales quis, bibendum vitae augue. Nunc finibus vel urna in lobortis.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus, velit pellentesque molestie ultrices, lorem lacus faucibus mauris, condimentum tempus erat eros id turpis. Nulla placerat quis turpis vel consectetur. Nullam egestas vestibulum nibh a consequat. Donec gravida dolor elit, rhoncus varius nisl mollis ullamcorper. Aenean ac convallis nulla, ac porttitor ante. Praesent et eros tempor, condimentum urna id, molestie massa. Sed tempus metus non tortor tempor pellentesque. Curabitur vehicula lacinia massa, a dapibus libero venenatis ut. Proin porttitor erat enim, ut consequat ligula fringilla id. Curabitur at sollicitudin nisi. Nam vel eleifend orci. Praesent eget erat orci. In mattis lorem eu tortor vehicula, sit amet tincidunt mauris efficitur. Quisque tempus erat quis ex consectetur fermentum.
-
-        Sed id nibh maximus, scelerisque ligula vulputate, hendrerit libero. Nulla lacinia sed ipsum vel bibendum. In vitae cursus nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec laoreet eleifend varius. Duis turpis dui, ornare sed laoreet quis, faucibus vitae lectus. Aliquam dolor arcu, elementum in lobortis ac, condimentum eu nulla. Praesent fringilla pretium mauris. Nulla facilisi. Curabitur lacinia mauris sed convallis lacinia. Integer vel venenatis risus. Maecenas luctus massa sit amet justo consequat, id vehicula lorem condimentum.
-
-        Donec tellus ligula, congue vitae euismod sit amet, dapibus sed augue. Fusce nec tempus nunc. Vivamus vitae tempus urna, eget elementum massa. Nullam nec metus sed lacus commodo iaculis id in eros. Cras scelerisque vitae mauris nec efficitur. Fusce laoreet nibh non nibh pretium sodales. Nulla at dui in turpis ultricies volutpat sed et risus. Maecenas ac libero et risus finibus posuere. Curabitur elementum lacinia nibh, at dapibus magna sagittis sit amet. Donec sit amet tincidunt arcu. Curabitur non purus libero. In ex erat, venenatis eget sodales quis, bibendum vitae augue. Nunc finibus vel urna in lobortis.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus, velit pellentesque molestie ultrices, lorem lacus faucibus mauris, condimentum tempus erat eros id turpis. Nulla placerat quis turpis vel consectetur. Nullam egestas vestibulum nibh a consequat. Donec gravida dolor elit, rhoncus varius nisl mollis ullamcorper. Aenean ac convallis nulla, ac porttitor ante. Praesent et eros tempor, condimentum urna id, molestie massa. Sed tempus metus non tortor tempor pellentesque. Curabitur vehicula lacinia massa, a dapibus libero venenatis ut. Proin porttitor erat enim, ut consequat ligula fringilla id. Curabitur at sollicitudin nisi. Nam vel eleifend orci. Praesent eget erat orci. In mattis lorem eu tortor vehicula, sit amet tincidunt mauris efficitur. Quisque tempus erat quis ex consectetur fermentum.
-
-        Sed id nibh maximus, scelerisque ligula vulputate, hendrerit libero. Nulla lacinia sed ipsum vel bibendum. In vitae cursus nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec laoreet eleifend varius. Duis turpis dui, ornare sed laoreet quis, faucibus vitae lectus. Aliquam dolor arcu, elementum in lobortis ac, condimentum eu nulla. Praesent fringilla pretium mauris. Nulla facilisi. Curabitur lacinia mauris sed convallis lacinia. Integer vel venenatis risus. Maecenas luctus massa sit amet justo consequat, id vehicula lorem condimentum.
-
-        Donec tellus ligula, congue vitae euismod sit amet, dapibus sed augue. Fusce nec tempus nunc. Vivamus vitae tempus urna, eget elementum massa. Nullam nec metus sed lacus commodo iaculis id in eros. Cras scelerisque vitae mauris nec efficitur. Fusce laoreet nibh non nibh pretium sodales. Nulla at dui in turpis ultricies volutpat sed et risus. Maecenas ac libero et risus finibus posuere. Curabitur elementum lacinia nibh, at dapibus magna sagittis sit amet. Donec sit amet tincidunt arcu. Curabitur non purus libero. In ex erat, venenatis eget sodales quis, bibendum vitae augue. Nunc finibus vel urna in lobortis.
-    </p>
-
+<div class="seperator"></div>
+<div id="contact" class="text-center d-flex flex-column align-items-center parallax-container4">
+    <div>
+    <h2 class="display-4 w-75">Contact</h2>
+    </div>
+    <nav role='navigation' class="navc">
+        <a href="mailto:Jesse.lemieux.tech@gmail.com" class='home'>Email</a>
+        <a href="https://www.linkedin.com/in/jesse-lemieux-064725244/">LinkdIn</a>
+        <a href="https://github.com/Jesse-Lemieux">GitHub</a>
+        <a href="#">Phone</a>
+    </nav>
 </div>
+<div class="seperator"></div>
 <script>
 
 </script>

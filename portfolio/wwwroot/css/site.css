@@ -20,3 +20,98 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+
+.prof {
+    border-radius: 100%;
+    height: 200px;
+}
+
+.prof2 {
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+}
+.image{
+    position: relative;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 100%;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content:hover{
+    opacity: 1;
+}
+
+.content p{
+    font-weight: bold;
+    color: #fff;
+}
+
+.content > *{
+    transform: translateY(25px);
+    transition: transform 0.6s;
+}
+
+.content:hover > *{
+    transform: translateY(0px);
+}
+
+.navc {
+    font-family: 'Voltaire', sans-serif;
+    color: #E7E7E4;
+    display: inline-block;
+}
+
+    .navc > a {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        font-size: 1.4em;
+        text-transform: UPPERCASE;
+        transform-origin: 0 0;
+        transform: matrix(1, -0.4, 0, 1.2, 0, 100);
+        padding: .2em;
+        margin-bottom: .3em;
+        transition: .5s background;
+    }
+
+.home {
+    font-size: 3em;
+}
+
+.navc > a:nth-of-type(even) {
+    border-right: 6px solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.navc > a:nth-of-type(odd) {
+    border-left: 6px solid;
+}
+
+.navc > a:hover, nav > a:focus {
+    background: #00555C;
+    color: #00D0E1;
+    border-color: #00555C;
+}
+
+

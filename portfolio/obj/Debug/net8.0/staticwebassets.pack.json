@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\portfolio.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\filth\\OneDrive\\Desktop\\Projects\\portfolio\\portfolio\\wwwroot\\Images\\Homepage Screenshot.png",
+      "PackagePath": "staticwebassets\\Images\\Homepage Screenshot.png"
+    },
+    {
+      "Id": "C:\\Users\\filth\\OneDrive\\Desktop\\Projects\\portfolio\\portfolio\\wwwroot\\Images\\Screenshot (8).png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot (8).png"
+    },
+    {
+      "Id": "C:\\Users\\filth\\OneDrive\\Desktop\\Projects\\portfolio\\portfolio\\wwwroot\\Images\\Screenshot1.png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot1.png"
+    },
+    {
       "Id": "C:\\Users\\filth\\OneDrive\\Desktop\\Projects\\portfolio\\portfolio\\wwwroot\\bg.jpg",
       "PackagePath": "staticwebassets\\bg.jpg"
     },
